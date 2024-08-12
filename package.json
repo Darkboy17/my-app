@@ -1,12 +1,36 @@
 {
+  "name": "customer-support-ai",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build"
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@ai-sdk/google-vertex": "^0.0.25",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@google-cloud/vertexai": "^1.4.0",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.6",
+    "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
+    "llama-node": "^0.1.6",
+    "llamaai": "^1.0.4",
+    "next": "14.2.5",
+    "openai": "^4.55.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-markdown": "^9.0.1",
+    "remark-gfm": "^4.0.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.14",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "tailwindcss": "^3.4.9"
   }
 }

@@ -1,0 +1,18 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px; /* Adjust the space as needed */
+}
+
+p {
+  margin-bottom: 10px; /* Adjust the space as needed */
+}
+
+pre {
+  margin-bottom: 30px; /* Adjust the space as needed */
+}
